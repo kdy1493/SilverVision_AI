@@ -10,6 +10,7 @@ def on_connect(client, userdata, flags, rc):
     print(f"Connected (rc={rc}), subscribing to {TOPIC!r}")
     client.subscribe(TOPIC)
 
+
 def on_message(client, userdata, msg):
     payload = msg.payload.decode()
     try:

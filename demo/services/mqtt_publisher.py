@@ -7,6 +7,7 @@ from demo.config.settings import (
 from demo.services.mqtt_manager import MQTTManager
 
 
+
 class MQTTPublisher:
     def __init__(
         self,

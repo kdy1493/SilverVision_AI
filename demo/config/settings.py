@@ -88,3 +88,6 @@ PERSON_FRAME_MARGIN = 10
 # CSI mode settings
 CSI_ZONE_TOPIC = "Loc/zone/response"
 CSI_PERSON_LOST_FRAMES = 1
+
+
+

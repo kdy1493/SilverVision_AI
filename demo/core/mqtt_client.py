@@ -15,3 +15,5 @@ class BaseMQTTClient:
                 try: self.client.reconnect_async()
                 except: pass
             time.sleep(5)
+
+            

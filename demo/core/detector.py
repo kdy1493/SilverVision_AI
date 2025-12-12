@@ -356,3 +356,5 @@ class DetectionProcessor:
                 #print(f"[MODE] CSI → Tracking (person detected)")
 
         return disp, bbox_for_ptz 
+    
+    

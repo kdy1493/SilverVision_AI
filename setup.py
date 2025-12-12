@@ -13,6 +13,7 @@ AUTHOR = "KIST-NVA Lab"
 AUTHOR_EMAIL = "yeonjae.jeong@kist.re.kr"
 LICENSE = "Apache 2.0"
 
+
 # Read the contents of README file
 with open("README.md", "r", encoding="utf-8") as f:
     LONG_DESCRIPTION = f.read()

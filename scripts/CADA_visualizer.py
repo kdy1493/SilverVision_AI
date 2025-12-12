@@ -10,6 +10,7 @@ from src.CADA.CADA_process import SlidingCadaProcessor, parse_and_normalize_payl
 from demo.services.mqtt_manager import start_csi_mqtt_thread
 from demo.config.settings import CSI_TOPIC, CSI_SUBCARRIERS as SUBCARRIER_NUM, CSI_INDICES_TO_REMOVE
 
+
 # ----- 설정 -----
 PLOT_POINTS = 300
 PLOT_INTERVAL = 0.2  # 초 단위

@@ -88,4 +88,6 @@ class StreamManager:
         blank = np.zeros((480, 640, 3), dtype=np.uint8)
         cv2.putText(blank, "Waiting for trigger...", (50, 240),
                     cv2.FONT_HERSHEY_SIMPLEX, 0.9, (255, 255, 255), 2)
-        return blank
+        return 
+    
+    

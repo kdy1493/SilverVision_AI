@@ -8,6 +8,7 @@ from demo.config.settings import (
 )
 from flask_socketio import SocketIO
 
+
 class CADAService:
     
     def __init__(self, socketio: SocketIO):

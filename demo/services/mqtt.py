@@ -5,6 +5,7 @@ from demo.services.mqtt_publisher import MQTTPublisher
 import paho.mqtt.client as paho
 import json
 
+
 class MQTTService:
     def __init__(self, stream_manager, detection_processor=None):
         self.publisher = MQTTPublisher()

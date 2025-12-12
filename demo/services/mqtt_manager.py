@@ -9,6 +9,7 @@ import paho.mqtt.client as mqtt
 from demo.config.settings import BROKER_ADDR, BROKER_PORT, MQTT_PTZ_KEEPALIVE
 
 
+
 def _unique_id(prefix="ptz"):
     host = socket.gethostname()
     return f"{prefix}_{host}_{uuid.uuid4().hex[:4]}"
