@@ -2,6 +2,8 @@ import os
 import torch
 import cv2
 
+
+
 # Path to YOLOv8 model checkpoint
 YOLO_MODEL_PATH = os.path.abspath("checkpoints/yolov8n.pt")
 

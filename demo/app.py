@@ -225,3 +225,7 @@ class HumanDetectionApp:
 if __name__ == "__main__":
     app = HumanDetectionApp()
     app.run()
+
+
+
+    
